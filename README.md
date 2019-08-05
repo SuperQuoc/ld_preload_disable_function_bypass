@@ -1,2 +1,3 @@
-# ld_preload_disable_function_bypass
-Only Work If function mail() and putenv() not disabled
+# LD_PRELOAD disable_functions bypass
+
+## Only Work If function mail() and putenv() not disabled
