@@ -1,3 +1,4 @@
-# LD_PRELOAD disable_functions bypass
+# open_basedir & disable_functions bypass
 
-## Only Work If function mail() and putenv() not disabled
+* Work if function mail() and putenv() not disabled
+* Modify LD_PRELOAD using putenv() and run payload .so using function mail()
